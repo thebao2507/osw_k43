@@ -1,0 +1,462 @@
+* {
+	margin:0px;
+	padding:0px;
+}
+.clr{
+	clear:both;
+}
+body{
+	font-size:14px;
+	font-family:Arial, Helvetica, sans-serif;	
+	color:#61665f;
+	background:#E0ECDE;
+}
+table{
+	border-collapse:collapse;
+}
+ h1{
+	text-align: center;
+    font-size: 18px;
+    margin-top: 20px;
+	padding-bottom:20px;
+	color:#1e511e;
+}
+
+.main{
+	width:1024px;
+	margin:0px auto;
+	background:#E0ECDE;
+	}
+.top{
+	height:70px;
+	background:url(../img/top.jpg) no-repeat center;
+	}
+.text_top{
+	color:#FFF; 
+	font-size:18px; 
+	padding-top:15px; 
+	padding-left: 30px;
+	width:500px;
+	float:left;
+	}
+.home{
+	float:left;
+	padding-left:400px;
+	color:#060;
+	padding-top:15px;
+	width:30px;
+	}
+.header{
+	background:url(../img/h.jpg) no-repeat center;
+	height:180px;
+	}
+.logo{
+	width:200px;
+	height:140px;
+	float:left;
+	padding-top: 5px;
+	padding-left:200px;
+	}
+.text{
+	font-size: 30px;
+	
+	color: #fff;
+
+	float: left;
+	text-align:center;
+	padding-top:50px;
+	padding-left:70px;
+	height:133px;
+	}
+#menu {
+	height:50px;
+	background:url(../img/menu.jpg) no-repeat top center;
+}
+ul.MenuBarHorizontal li.divider {
+	display: inline;
+	width: 2px;
+	height: 50px;
+	float: left;
+	background:url(../img/menu_divider.png) no-repeat center;
+}
+.marquee{
+	color: #FFF;
+	padding-top:10px;
+	font-size:16px;
+	
+}
+
+.center{
+	background:#FFF;
+}
+.content{
+	border-top: 5px solid #5EC208;
+	background:#FFF;
+	padding-top: 10px;
+	height:auto;
+	}
+.left_content{
+	float:left;
+	width:400px;
+	
+	
+	}	
+.right_content{
+	float:left;
+	width:424px;
+}
+.footer{
+	background:url(../img/footer.jpg) no-repeat center;
+	clear:both;
+	height:70px;
+	
+	}
+.text_left_footer{
+	color: #FFF;
+	font-size:14px;
+	font-family:Arial, Helvetica, sans-serif;
+	float:left;
+	padding-left:20px;
+	padding-top:20px;
+	}
+/*=======THONG TIN GIANG VIEN=======*/
+.thongtingv{
+	width:320px;
+	float:right;
+	padding-bottom:20px;
+	color:#61665f;
+}
+
+.thongtingv table tr td {
+	
+	border: 1px solid #afd49f;
+	
+
+}
+.thongtingv tr{
+	height:40px;
+}
+.thongtingv td{
+	padding-left:20px;
+	padding-right:10px;
+}
+.thaydoimatkhau tr td{
+	padding-left:10px;
+}
+.thaydoimatkhau {
+	width:270px;
+	float:left;
+	font-size: 12px;
+	background-color:#ddffad;
+	margin-top:70px;
+	color:#61665f;
+	margin-left:20px;
+	margin-bottom:20px;
+}
+
+.thaydoimatkhau input {
+    width: 120px;
+    height: 25px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 2.5px;
+	margin-top: 2.5px;
+    font-size: 14px;
+    padding-left:20px;
+    outline: none;
+}	
+.thaydoimatkhau input#button{
+	background:#67a346;
+	width:100px;
+	height:25px;
+	padding-left:0px;
+	color:#FFF;
+}	
+.thaydoimatkhau input#button:hover {
+    background: #99c282;
+}
+.thaydoimatkhau input:active, .thaydoimatkhau input:focus {
+    border: 1px solid #67a346;
+	color:#67a346;
+}				
+/*=======TO CHUC THI=======*/	
+.taokithi{
+	font-size:14px;
+	width:500px;
+	color:#61665f;
+	margin-left:300px;
+}
+.taokithi input,select {
+	
+	width: 100%;
+    height: 35px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+	margin-top: 10px;
+    font-size: 14px;
+    padding-left:20px;
+    outline: none;
+}
+.taokithi input:active, .taokithi input:focus {
+    border: 1px solid #67a346;
+	color:#67a346;
+}
+.taokithi select:active, .taokithi select:focus {
+    border: 1px solid #67a346;
+	color:#67a346;
+}		
+.taokithi option{
+	height:30px;
+}
+.taokithi input#tao {
+	width:70px;
+	background:#67a346;
+	padding-left:0px;
+	color:#FFF;
+}	
+.taokithi input#tao:hover {
+    background: #99c282;
+}
+/*=======DANH SACH KI THI=======*/	
+.kithicuaban{
+	
+	margin-left:15px;
+	margin-right:15px;
+	padding-bottom:20px;
+}
+.kithicuaban table tr td{
+	border: 1px solid #afd49f;
+}
+.kithicuaban  tr td{
+	height:40px;
+	text-align:center;
+	
+}
+/*=======CHON DE NGAU NHIEN=======*/
+.chonde tr td{
+	border: 1px solid #afd49f;
+	height:40px;
+}
+.chonde table{
+	width:600px;
+	border: 1px solid #afd49f;
+	margin-left:200px;
+}
+.chonde input#chon{
+	width:70px;
+	height:30px;
+	background:#67a346;
+	margin-left:20px;
+	margin-top:10px;
+	border-radius:5px;
+	border: 1px solid #67a346;
+	color:#FFF;
+}
+.chonde input#chon:hover {
+    background: #99c282;
+}
+ #nut{
+	margin-left:380px;
+	
+}
+.xemde{
+	margin-left:312px;
+	width:400px;
+	margin-bottom:20px;
+}
+.xemde select{
+	width: 60%;
+    height: 35px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+	margin-top: 10px;
+    font-size: 14px;
+    padding-left:20px;
+    outline: none;
+}
+.xemde select:active, .xemde select:focus {
+    border: 1px solid #67a346;
+	color:#67a346;
+}	
+.xemde input#xem{
+	color:#FFF;
+	width:70px;
+	height:30px;
+	background:#67a346;
+	margin-left:20px;
+	margin-top:10px;
+	border-radius:5px;
+	border: 1px solid #67a346;
+}
+.xemde input#xem:hover {
+    background: #99c282;
+}
+.dethi{
+	height:auto;
+	padding-bottom:10px;
+	overflow:auto;
+}
+.dethi table{
+	border: 1px solid #afd49f;
+	margin-left:15px;
+	margin-right:15px;
+}
+.dethi tr td{
+	border: 1px solid #afd49f;
+	height:50px;
+	padding-left:10px;
+}
+.dethi input{
+
+	height:30px;
+	margin-left:440px;
+	margin-bottom:20px;
+	padding-left:10px;
+	padding-right:10px;
+	border-radius:5px;
+	border: 1px solid #67a346;
+}
+/*=======CHON DE NGAU NHIEN=======*/
+.thongtinkithi table{
+	width:500px;
+	margin-left:250px;
+	margin-bottom:10px;
+}
+.thongtinkithi tr td{
+	height:30px;
+}
+.option_kithi{
+	padding-bottom:20px;
+}
+.option_kithi table{
+	width:500px;
+	margin-left:250px;
+	margin-top:0px;
+	border: 1px solid #67a346;
+}
+.option_kithi tr td{
+	height:30px;
+	width:167px;
+	background:#67a346;
+	
+}
+.option_kithi tr td:hover{
+	background:#99c282;
+}
+/*======XEM DE NGAN HANG DE=======*/
+.xemnganhangde table{
+
+	border: 1px solid #afd49f;
+	margin-left:15px;
+	margin-right:15px;
+}
+.xemnganhangde tr td{
+	border: 1px solid #afd49f;
+	height:50px;
+	padding-left:10px;
+}
+/*=======THONG TIN SINH VIEN=======*/
+.thongtinsv{
+	width:320px;
+	float:left;
+	padding-bottom:20px;
+	color:##61665f;
+	padding-left:20px;
+	
+}
+.thongtinsv table tr td{
+	border: 1px solid #afd49f;
+}
+.thongtinsv tr{
+	height:40px;
+}
+.thongtinsv td{
+	padding-left:20px;
+	padding-right:10px
+}
+/*=======SINH VIEN DU THI=======*/
+.infotest table{
+	width:600px;
+	padding-top:20px;
+	margin-bottom: 20px;
+	background:#49790C;
+	color:#ffffff;
+}
+.ketqua_test{
+	width:600px;
+	height:150px;
+	padding-bottom:20px;
+	padding-left:15px;
+}
+.ketqua_test table{
+	width:275px;
+	height:150px;
+	background:#eeeeee;
+	border:6px solid #d8d8d9;
+}
+/*=======DIALOG - BOX=======*/
+
+#dialog-box{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #808080;
+	opacity: 0.7;
+	display: none;
+	z-index: 1040;
+}
+#box {
+	background:#fff;
+	width:400px;
+	position: absolute;
+	display: none;
+	top: 50%;
+	left: 50%;
+	margin-left: -150px;
+	margin-top: -75px;
+	z-index: 99999;
+	border-radius:5px;
+	font-size: 14px;
+    line-height: 23px;
+	box-shadow: 1px 2px 5px #999999;
+}
+#box-header{
+	height:30px;
+	color:#f08a00;
+	border-bottom:1px solid #b8b9ba;
+	padding-top:10px;
+	padding-left:20px;
+}
+#box-body{
+	height:60px;
+	border-bottom:1px solid #b8b9ba;
+	padding-top:10px;
+	padding-left:20px;
+	padding-right:20px;
+}
+#box-footer{
+	height:60px;
+	padding-top:20px;
+	padding-right:20px;
+	text-align:right;
+}
+#box-footer input{
+	height:30px;
+	width:80px;
+	text-align:center;
+	border-radius:5px;
+	background:#67a346;
+	color:#ffffff;
+	border: 1px solid #67a346;
+}			
+#box-footer input:hover {
+    background: #99c282;
+	
+}	
